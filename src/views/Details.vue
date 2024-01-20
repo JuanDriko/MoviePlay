@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto p-10">
+  <div class="container mx-auto p-10 min-h-screen">
     <div class="mx-auto w-1/2 flex flex-col">
     <h2 class="uppercase mt-5 text-yellow-500 text-lg font-semibold mx-auto">
       {{ movieDetails.title }}
