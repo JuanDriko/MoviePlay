@@ -10,5 +10,5 @@ export default defineConfig({
     },
   },
   plugins: [vue()],
-  base: '/MoviePlay/'
+  base: '/'
 })
