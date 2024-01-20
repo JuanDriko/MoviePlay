@@ -1,10 +1,11 @@
 import { createApp } from 'vue'
-import '../public/main.css'
 import App from './App.vue'
 import router from './router/index'
 import AppLink from "@/components/AppLink.vue";
+import '@fortawesome/fontawesome-free/css/all.css'
+import '../public/main.css'
 
 createApp(App)
-.component('AppLink', AppLink)
-.use(router)
-.mount('#app')
+  .component('AppLink', AppLink)
+  .use(router)
+  .mount('#app')
